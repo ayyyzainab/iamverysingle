@@ -1,0 +1,91 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+.hero-image {
+  text-align: center;
+  background-position: center;
+  background-size: contain;
+  position: relative;
+}
+
+div.home-text {
+  float: left;
+  background-color: #ca3438;
+  color: white;
+  text-align: center;
+  width: 40%;
+  font-size: 50px;
+/*  border: 10px solid white;*/
+  padding: 50px;
+  margin: 20px;
+}
+
+div.home-img {
+	text-align: center;
+	margin-left: 50%;
+	font-size: 50px;
+/*    border: 10px solid white;*/
+	padding: 40px 30px 40px 50px;
+	
+    margin: 20px;
+	
+}
+
+html,body
+{
+	background-color: #ca3438;
+	font-size: 20px;
+	font-family: 'Source Code Pro', monospace;
+}
+
+ul.nav a 
+{
+	text-decoration: none;
+	color: white;
+	font-size: 24px
+}
+
+ul.nav a:hover 
+{
+	border-bottom: 3px solid white;
+}
+
+ul.nav {
+	list-style-type: none;
+	text-align: center;
+}
+
+ul.nav li {
+	display: inline-block;
+	padding: 0px 30px;
+}
+
+ul.nav li a{
+	
+}
+
+footer {
+/*	position: absolute;*/
+	padding: 5px;
+	background-color: white;
+	color: red;
+}
+
+@media (max-width: 600px) {
+	ul.nav li {padding: 0px 10px;}
+.hero-image {
+  background-image: url("logo.jpg");
+
+  /* Set a specific height */
+/*  height: 50%;*/
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+}
+}
+
+/*</style>*/
