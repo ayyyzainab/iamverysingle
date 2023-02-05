@@ -72,6 +72,37 @@ footer {
 	color: red;
 }
 
+button {
+  background-color: white;
+  border: none;
+  color: #ca3438;
+  padding: 10px;
+  text-align: center;
+  text-decoration: bold;
+  display: inline-block;
+  font-size: 40px;
+  margin: 4px 2px;
+  border-radius: 20px;
+  font-family: 'Source Code Pro', monospace;
+  cursor: pointer;
+}
+
+body.form-body, body.success-images {
+	text-align: center;
+/*	background-color: white;*/
+}
+
+.form-box {
+	background-color: white;
+	margin: 0% 20% 5% 20%;
+	color: #ca3438;
+	
+}
+
+.success-images {
+	
+}
+
 @media (max-width: 600px) {
 	ul.nav li {padding: 0px 10px;}
 .hero-image {
