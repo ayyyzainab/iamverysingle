@@ -2,34 +2,33 @@
 /* CSS Document */
 
 
-.hero-image {
+.hero-image 
+{
   text-align: center;
   background-position: center;
   background-size: contain;
   position: relative;
 }
 
-div.home-text {
+div.home-text 
+{
   float: left;
   background-color: #ca3438;
   color: white;
   text-align: center;
   width: 40%;
   font-size: 50px;
-/*  border: 10px solid white;*/
   padding: 50px;
   margin: 20px;
 }
 
-div.home-img {
+div.home-img 
+{
 	text-align: center;
 	margin-left: 50%;
 	font-size: 50px;
-/*    border: 10px solid white;*/
-	padding: 40px 30px 40px 50px;
-	
+	padding: 40px 30px 40px 50px;	
     margin: 20px;
-	
 }
 
 html,body
@@ -37,7 +36,20 @@ html,body
 	background-color: #ca3438;
 	font-size: 20px;
 	font-family: 'Source Code Pro', monospace;
+	margin: 0;
+	padding:0;
 }
+
+a:link { text-decoration: none; }
+
+
+a:visited { text-decoration: none; }
+
+
+a:hover { text-decoration: none; }
+
+
+a:active { text-decoration: none; }
 
 ul.nav a 
 {
@@ -51,28 +63,34 @@ ul.nav a:hover
 	border-bottom: 3px solid white;
 }
 
-ul.nav {
+ul.nav 
+{
 	list-style-type: none;
 	text-align: center;
 }
 
-ul.nav li {
+ul.nav li 
+{
 	display: inline-block;
 	padding: 0px 30px;
 }
 
-ul.nav li a{
+button a 
+{
+	text-decoration: none;
+}
+
+footer 
+{
+	padding: 1px;
+	text-align: center;
+	background-image: url("marble.jpeg");
+	color: red;
 	
 }
 
-footer {
-/*	position: absolute;*/
-	padding: 5px;
-	background-color: white;
-	color: red;
-}
-
-button {
+button 
+{
   background-color: white;
   border: none;
   color: #ca3438;
@@ -87,36 +105,13 @@ button {
   cursor: pointer;
 }
 
-body.form-body, body.success-images {
+body.form-body, body.success-images 
+{
 	text-align: center;
-/*	background-color: white;*/
-}
-
-.form-box {
-	background-color: white;
-	margin: 0% 20% 5% 20%;
-	color: #ca3438;
-	
-}
-
-.success-images {
-	
 }
 
 @media (max-width: 600px) {
-	ul.nav li {padding: 0px 10px;}
-.hero-image {
-  background-image: url("logo.jpg");
-
-  /* Set a specific height */
-/*  height: 50%;*/
-
-  /* Position and center the image to scale nicely on all screens */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  position: relative;
-}
+	ul.nav li {padding: 0px 2px;}
 }
 
 /*</style>*/
